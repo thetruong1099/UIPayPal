@@ -16,6 +16,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="28dp"
@@ -286,12 +287,12 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="2dp"
                         android:fontFamily="@font/montserrat_medium"
+                        android:text="****9889"
                         android:textColor="#999999"
                         android:textSize="14sp"
                         android:textStyle="normal"
                         app:layout_constraintStart_toEndOf="@+id/cardView7"
-                        app:layout_constraintTop_toBottomOf="@+id/textView22"
-                        android:text="****9889" />
+                        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -336,12 +337,12 @@
                         android:layout_marginEnd="22dp"
                         android:fontFamily="@font/montserrat_semibold"
                         android:gravity="end"
+                        android:text="0,00€ "
                         android:textColor="#666666"
                         android:textSize="16sp"
                         android:textStyle="normal"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/divider2"
-                        android:text="0,00€ " />
+                        app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
                     <View
                         android:id="@+id/divider3"

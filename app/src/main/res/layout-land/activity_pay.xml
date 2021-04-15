@@ -17,8 +17,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingRight="20dp"
-            android:paddingLeft="20dp">
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -333,12 +333,12 @@
                         android:layout_marginEnd="22dp"
                         android:fontFamily="@font/montserrat_semibold"
                         android:gravity="end"
+                        android:text="0,00€ "
                         android:textColor="#666666"
                         android:textSize="16sp"
                         android:textStyle="normal"
                         app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/divider2"
-                        android:text="0,00€ " />
+                        app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
                     <View
                         android:id="@+id/divider3"
@@ -393,11 +393,11 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="44dp"
                 android:layout_marginEnd="15dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
                 android:layout_marginBottom="48dp"
                 android:background="@drawable/background_button_gradient"
                 android:fontFamily="@font/montserrat_bold"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
                 android:text="ENVIAR AHORA"
                 android:textColor="@color/white"
                 android:textSize="16sp"

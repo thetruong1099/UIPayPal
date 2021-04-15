@@ -6,8 +6,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_user.view.*
 
-class ListUserAdapter(var arrayList:ArrayList<User>): RecyclerView.Adapter<ListUserAdapter.ViewHolder>() {
-    class ViewHolder(view:View): RecyclerView.ViewHolder(view) {
+class ListUserAdapter(var arrayList: ArrayList<User>) :
+    RecyclerView.Adapter<ListUserAdapter.ViewHolder>() {
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         var username = view.tvUserName
         var avatar = view.imgvAvartar
     }
