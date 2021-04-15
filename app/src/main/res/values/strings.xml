@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIPayPal</string>
+    <string name="todo">TODO</string>
+    <string name="ver_detalles">VER DETALLES</string>
+    <string name="_20_00">20,00€</string>
+    <string name="nina_te_ha_enviado">Nina te ha enviado</string>
+    <string name="hoy">HOY</string>
+    <string name="mensaje">Mensaje</string>
+</resources>
