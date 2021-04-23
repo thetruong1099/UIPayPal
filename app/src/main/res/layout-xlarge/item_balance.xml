@@ -21,7 +21,7 @@
             android:fontFamily="@font/montserrat_medium"
             android:text="El corte inglés"
             android:textColor="@color/black"
-            android:textSize="14sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/tvNotification"
@@ -30,7 +30,7 @@
             android:fontFamily="@font/montserrat_medium"
             android:text="Pago aceptado"
             android:textColor="#999999"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <TextView
@@ -45,7 +45,7 @@
         android:fontFamily="@font/montserrat_regular"
         android:text="-50€"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="22sp" />
 
     <View
         android:id="@+id/view"

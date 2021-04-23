@@ -134,7 +134,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="26dp"
                         android:layout_marginTop="5dp"
-                        android:layout_marginBottom="20dp"
+                        android:layout_marginBottom="22dp"
                         android:fontFamily="@font/montserrat_medium"
                         android:text="Este es el dinero de la entradas…"
                         android:textColor="#666666"
@@ -145,15 +145,18 @@
 
                     <TextView
                         android:id="@+id/textView20"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="156dp"
+                        android:layout_width="41dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="160dp"
                         android:layout_marginEnd="39dp"
                         android:fontFamily="sans-serif"
                         android:text="🎬"
                         android:textColor="#022c59"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.009"
+                        app:layout_constraintStart_toEndOf="@+id/textView19"
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
@@ -169,7 +172,7 @@
                         android:paddingBottom="7dp"
                         android:text="20,00€"
                         android:textColor="#ffffff"
-                        android:textSize="20sp"
+                        android:textSize="22sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -272,7 +275,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="BBVA"
                         android:textColor="#1b1b1b"
-                        android:textSize="16sp"
+                        android:textSize="18sp"
                         android:textStyle="normal"
                         app:layout_constraintStart_toEndOf="@+id/cardView7"
                         app:layout_constraintTop_toBottomOf="@+id/divider" />
@@ -285,7 +288,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="****9889"
                         android:textColor="#999999"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:textStyle="normal"
                         app:layout_constraintStart_toEndOf="@+id/cardView7"
                         app:layout_constraintTop_toBottomOf="@+id/textView22" />
@@ -321,7 +324,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="Tarifas por transacción "
                         android:textColor="#1b1b1b"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:textStyle="normal"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/divider2" />
@@ -335,7 +338,7 @@
                         android:gravity="end"
                         android:text="0,00€ "
                         android:textColor="#666666"
-                        android:textSize="16sp"
+                        android:textSize="18sp"
                         android:textStyle="normal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/divider2" />
@@ -362,7 +365,7 @@
                         android:fontFamily="@font/montserrat_semibold"
                         android:text="Tú pagas"
                         android:textColor="#1b1b1b"
-                        android:textSize="14sp"
+                        android:textSize="16sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -378,7 +381,7 @@
                         android:gravity="end"
                         android:text="20,00€ "
                         android:textColor="#00d090"
-                        android:textSize="20sp"
+                        android:textSize="22sp"
                         android:textStyle="normal"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -400,7 +403,7 @@
                 android:paddingRight="20dp"
                 android:text="ENVIAR AHORA"
                 android:textColor="@color/white"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

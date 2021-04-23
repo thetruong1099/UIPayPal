@@ -24,10 +24,6 @@ class MainActivity : AppCompatActivity() {
         listUser.add(User("Ruby Sanz", R.drawable.avatar_2))
         listUser.add(User("Mary Rich", R.drawable.avartar_1))
         listUser.add(User("José Porto", R.drawable.avartar_5))
-        listUser.add(User("Carlos Roca", R.drawable.avatar_3))
-        listUser.add(User("Carlos Roca", R.drawable.avatar_3))
-        listUser.add(User("Carlos Roca", R.drawable.avatar_3))
-        listUser.add(User("Carlos Roca", R.drawable.avatar_3))
 
         rvUser.adapter = listUserAdapter
         rvUser.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
@@ -36,11 +32,6 @@ class MainActivity : AppCompatActivity() {
         listBalance.add(BalanceChange("El corte inglés", "Pago aceptado", -50))
         listBalance.add(BalanceChange("Maria Lujan", "Pago aceptado", 650))
         listBalance.add(BalanceChange("Maria Lujan", "Pago aceptado", 450))
-        listBalance.add(BalanceChange("Maria Lujan", "Pago aceptado", 250))
-        listBalance.add(BalanceChange("El corte inglés", "Pago aceptado", -100))
-        listBalance.add(BalanceChange("El corte inglés", "Pago aceptado", -100))
-        listBalance.add(BalanceChange("Maria Lujan", "Pago aceptado", 250))
-        listBalance.add(BalanceChange("Maria Lujan", "Pago aceptado", 250))
 
         rvBalance.adapter = listBalanceAdapter
         rvBalance.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)

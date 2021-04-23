@@ -6,4 +6,8 @@
     <string name="nina_te_ha_enviado">Nina te ha enviado</string>
     <string name="hoy">HOY</string>
     <string name="mensaje">Mensaje</string>
+    <string name="por_la_cena">Por la cena...</string>
+    <string name="enviar_de_nuevo">Enviar de nuevo</string>
+    <string name="actividad">Actividad</string>
+    <string name="ver_m_s_movimientos">Ver más movimientos</string>
 </resources>

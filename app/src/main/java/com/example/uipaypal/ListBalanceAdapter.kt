@@ -27,6 +27,7 @@ class ListBalanceAdapter(var arrayList: ArrayList<BalanceChange>) :
         holder.notification.text = arrayList[position].notification
         holder.money.text = arrayList[position].money.toString() + "€"
         if (arrayList[position].money > 0) holder.money.setTextColor(Color.rgb(0, 197, 91))
+        else holder.money.setTextColor(Color.rgb(0, 0, 0))
     }
 
     override fun getItemCount(): Int {

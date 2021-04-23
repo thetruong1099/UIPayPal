@@ -11,12 +11,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="85dp"
+        android:background="#f6f8fa"
         android:scrollbars="none">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
 
@@ -26,8 +27,6 @@
                 android:layout_height="40dp"
                 android:layout_marginStart="26dp"
                 android:layout_marginTop="14dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.047"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -44,7 +43,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:contentDescription="TODO"
+                        android:contentDescription="@string/todo"
                         app:srcCompat="@drawable/avartar_1" />
 
                 </androidx.cardview.widget.CardView>
@@ -70,7 +69,7 @@
                 android:layout_height="24dp"
                 android:layout_marginTop="26dp"
                 android:layout_marginEnd="21dp"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/todo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_settings_black_18_dp"
@@ -80,9 +79,10 @@
                 android:id="@+id/imageView4"
                 android:layout_width="200dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/todo"
                 app:layout_constraintEnd_toStartOf="@+id/imageView3"
-                app:layout_constraintHorizontal_bias="0.537"
+                app:layout_constraintHorizontal_bias="0.488"
                 app:layout_constraintStart_toEndOf="@+id/relativeLayout"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/paypal_logo" />
@@ -94,6 +94,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginEnd="17dp"
+                app:cardCornerRadius="20dp"
                 app:cardElevation="0dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -108,9 +109,9 @@
                         android:id="@+id/cardView4"
                         android:layout_width="56dp"
                         android:layout_height="56dp"
-                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
-                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
                         android:layout_marginTop="16dp"
                         app:cardCornerRadius="28dp">
 
@@ -119,6 +120,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
+                            android:contentDescription="@string/todo"
                             app:srcCompat="@drawable/avartar_4" />
                     </androidx.cardview.widget.CardView>
 
@@ -127,18 +129,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_marginTop="23dp"
-                        android:layout_marginRight="14dp"
+                        android:layout_marginEnd="14dp"
                         android:background="@drawable/background_text"
                         android:fontFamily="@font/montserrat_semi_bold"
-                        android:paddingLeft="15dp"
+                        android:paddingStart="15dp"
                         android:paddingTop="5dp"
                         android:paddingEnd="14dp"
                         android:paddingBottom="5dp"
                         android:text="@string/hoy"
                         android:textColor="@color/black"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         android:textStyle="normal" />
 
                     <TextView
@@ -151,7 +153,7 @@
                         android:fontFamily="@font/montserrat_medium"
                         android:text="@string/nina_te_ha_enviado"
                         android:textColor="@color/white"
-                        android:textSize="14sp" />
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/textView3"
@@ -162,7 +164,7 @@
                         android:fontFamily="@font/montserrat_semi_bold"
                         android:text="@string/_20_00"
                         android:textColor="@color/white"
-                        android:textSize="28sp" />
+                        android:textSize="30sp" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -170,7 +172,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/textView3"
                         android:layout_marginStart="26dp"
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="12dp"
                         android:layout_marginBottom="23dp"
                         android:background="@drawable/background_boder"
                         android:fontFamily="@font/montserrat_semi_bold"
@@ -180,19 +182,19 @@
                         android:paddingBottom="8dp"
                         android:text="@string/ver_detalles"
                         android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        android:textSize="14sp" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_marginStart="31dp"
-                        android:layout_marginTop="134dp"
-                        android:layout_toEndOf="@id/textView4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="140dp"
+                        android:layout_marginEnd="158dp"
                         android:fontFamily="@font/montserrat_medium"
                         android:text="@string/mensaje"
-                        android:textColor="@color/white"
+                        android:textColor="#76a3e1"
                         android:textSize="12sp" />
 
                     <TextView
@@ -200,13 +202,25 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/textView5"
-                        android:layout_marginStart="31dp"
-                        android:layout_marginTop="2dp"
-                        android:layout_toRightOf="@id/textView4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="107dp"
                         android:fontFamily="@font/montserrat_medium"
-                        android:text="Por la cena..."
+                        android:text="@string/por_la_cena"
                         android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="147dp"
+                        android:layout_marginEnd="70dp"
+                        android:layout_marginBottom="37dp"
+                        android:text=" 🍕"
+                        android:textColor="#022c59"
+                        android:textSize="16sp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -217,9 +231,9 @@
                 android:layout_marginStart="22dp"
                 android:layout_marginTop="28dp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Enviar de nuevo"
+                android:text="@string/enviar_de_nuevo"
                 android:textColor="@color/text_corlor_1"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -229,8 +243,9 @@
                 android:id="@+id/rvUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="14dp"
-                android:layout_marginEnd="21dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="75dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.068"
                 app:layout_constraintStart_toStartOf="parent"
@@ -244,10 +259,9 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="17dp"
                 android:fontFamily="@font/montserrat_semi_bold"
-                android:text="Actividad"
+                android:text="@string/actividad"
                 android:textColor="@color/text_corlor_1"
-                android:textSize="14sp"
-                app:layout_constraintBottom_toTopOf="@+id/cardView5"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -259,13 +273,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginRight="21dp"
+                android:layout_marginEnd="21dp"
                 android:layout_marginBottom="17dp"
                 android:fontFamily="@font/montserrat_medium"
-                android:text="Ver más movimientos"
+                android:text="@string/ver_m_s_movimientos"
                 android:textColor="#025ed7"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toTopOf="@+id/cardView5"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -273,28 +286,29 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView5"
                 android:layout_width="match_parent"
-                android:layout_height="165dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="14dp"
-                android:layout_marginTop="55dp"
+                android:layout_marginTop="17dp"
                 android:layout_marginEnd="21dp"
-                android:layout_marginBottom="10dp"
-                android:padding="10dp"
-                app:cardElevation="0dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/background_shadow"
+                app:cardCornerRadius="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/rvUser"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
                 app:layout_constraintVertical_bias="1.0">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rvBalance"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/background_shadow"
-                    android:padding="10dp" />
+                    android:layout_height="170dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="18dp"
+                    android:paddingBottom="8dp" />
             </androidx.cardview.widget.CardView>
 
 
@@ -308,13 +322,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:backgroundTint="@color/white"
-        app:fabCradleMargin="6dp">
+        app:fabCradleMargin="10dp">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigationView"
             style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
             app:itemIconTint="@color/gray"
